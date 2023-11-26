@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Herkansing Front-end</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileDropdown = document.querySelector('.mobile-dropdown');
+    
+            mobileMenuButton.addEventListener('click', function () {
+                mobileDropdown.style.display = (mobileDropdown.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+        <nav>
+                <div class="nav-logo">
+                    <div class="logo"><img src="https://imgs.search.brave.com/H7D2kcI1YgJaYP48KIrWglS0JiHfA8Pi5AR-r3qwNYI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWFy/Y2h2ZWN0b3Jsb2dv/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8xMS92YW5t/b29mLWxvZ28tdmVj/dG9yLnBuZw" alt="logo"></div>
+                </div>
+
+                    <ul class="nav-menu">
+                        <li><a href="">E-Bikes</a></li>
+                        <li><a href="">Test Rides</a></li>
+                        <li><a href="">Accessories</a></li>
+                        <li><a href="">Support</a></li>
+                        <li class="odd-link"><a href="">Account</a></li>
+                    </ul>
+
+        </nav>
+        </div>
+    </header>
+
+    <body>
+        <section id="headline-section">
+            <div class="container">
+                <h2>VanMoof Fietsen</h2>
+                <p>VanMoof is een Amsterdams bedrijf dat in 2009 werd opgericht door de broers Taco en Ties Carlier. De broers hadden een duidelijke visie voor VanMoof: ze wilden stadsfietsen opnieuw uitvinden en een alternatief bieden voor de auto in stedelijke omgevingen.</p>
+                <div id="headline-links">
+                    <ul>
+                        <li class="odd-link">link</li>
+                        <li class="odd-link"><a href="">link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="subheading-section">
+            <div class="container">
+                <div id="subheading">
+                    <h3>Onze Modellen</h3>
+                </div>
+                <div id="cards">
+                    <div class="card">
+                        <img src="https://imgs.search.brave.com/3nbkaa3kUrD9CAO_jJnl32AAf7XtmjnTG4uxFGmdORU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2Q2L1Zhbk1vb2Zf/QTUucG5n" alt="card image">
+                        <div class="card-container">
+                            <h5>VanMoof A5</h5>
+                            <div class="stars">
+                                <ul>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                </ul>  
+                            </div>
+                            <p>Maak kennis met de VanMoof A5, een gestroomlijnde en stijlvolle stadsfiets ontworpen voor de moderne stadsbewoner. Met zijn minimalistische esthetiek en geavanceerde technologie herdefinieert de VanMoof A5 stadsfietsen, en biedt het een soepele en verbonden rit door de drukke straten.</p>
+                            <button>
+                                Koop nu
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://imgs.search.brave.com/84fSQEVuYyDBUiEjUtiRlUSn5ubdfSBNEkJYAzndR3Q/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy81/LzVkL1Zhbk1vb2Zf/UzNfZGFyay5wbmc" alt="card image">
+                        <div class="card-container">
+                            <h5>VanMoof S3 Dark</h5>
+                            <div class="stars">
+                                <ul>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                </ul>  
+                            </div>
+                            <p>Ervaar de toekomst van stedelijke mobiliteit met de VanMoof S3. Deze elektrische smartbike combineert krachtige prestaties met intelligente functies en biedt een naadloze en plezierige rit. Navigeer moeiteloos door de stad en blijf verbonden en in controle met de VanMoof S3.</p>
+                            <button>
+                                Koop nu
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://imgs.search.brave.com/ttfshzAhzXnWx5Un2g1gECYhzWuldm1rM-FaSPIePAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzNiL1Zhbk1vb2Zf/UzJfZm9nX3doaXRl/LnBuZw" alt="card image">
+                        <div class="card-container">
+                            <h5>VanMoof S2 Fog White</h5>
+                            <div class="stars">
+                                <ul>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                    <li>
+                                    <svg class="star" viewBox="0 0 24 24">
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z"/>
+                                    </svg>
+                                    </li>
+                                </ul>  
+                            </div>
+                            <p>De VanMoof S2 is een symbool van innovatie en designuitmuntendheid. Ontworpen voor stedelijke ontdekkers, combineert deze fiets naadloos vorm en functie. Geniet van een responsieve en wendbare rit terwijl je door de stadse straten manoeuvreert, en maak een statement met het iconische design van de VanMoof S2.</p>
+                            <button>
+                                Koop nu
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <div class="form-container">
+                <div class="form-header">
+                    <h4>Contact</h4>
+                </div>
+                <form action="" class="styled-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label for="first-name">Voornaam</label>
+                            <input type="text" class="styled-input" id="first-name">
+                        </div>
+                        <div class="input-group">
+                            <label for="last-name">Achternaam</label>
+                            <input type="text" class="styled-input" id="last-name">
+                        </div>
+                    </div>
+    
+                    <label for="email">Email</label>
+                    <input type="email" class="styled-input" required>
+    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label for="city">Woonplaats</label>
+                            <input type="text" class="styled-input" id="city">
+                        </div>
+                        <div class="input-group">
+                            <label for="birthdate">Geboortedatum</label>
+                            <input type="date" class="styled-input" id="birthdate" required>
+                        </div>
+                    </div>
+    
+                    <label for="subject">Onderwerp</label>
+                    <input type="text" class="styled-input">
+    
+                    <label for="message">Bericht</label>
+                    <textarea class="styled-input" id="message"></textarea>
+    
+                    <label for="newsletter">Newsletter</label>
+                    <div class="styled-radio-buttons">
+                        <div class="radio-button">
+                            <input type="radio" value="yes" id="newsletter-yes">
+                            <label for="newsletter-yes">Yes</label>
+                        </div>
+                        <div class="radio-button">
+                            <input type="radio" value="no" id="newsletter-no">
+                            <label for="newsletter-no">No</label>
+                        </div>
+                    </div>
+
+                    <div class="terms-and-conditions">
+                        <input type="checkbox">
+                        <label for="terms-and-conditions">Ik ga akkoord met de algeme voorwaarden</label>
+                    </div>
+    
+                    <button type="submit" class="styled-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <div class="container">
+            <div>
+                <div class="logo"><img src="https://imgs.search.brave.com/H7D2kcI1YgJaYP48KIrWglS0JiHfA8Pi5AR-r3qwNYI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWFy/Y2h2ZWN0b3Jsb2dv/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8xMS92YW5t/b29mLWxvZ28tdmVj/dG9yLnBuZw" alt="footer-logo"></div>
+                <p>Copyright 2023 Florian Burg</p>
+                <div id="socials">
+                    <ul>
+                        <li>instagram</li>
+                        <li>facebook</li>
+                        <li>snapchat</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-links">
+                <ul>
+                    <li class="footer-link"><a href="">Privacyverklaring</a></li>
+                    <li class="footer-link"><a href="">Algemene voorwaarden</a></li>
+                    <li class="footer-link"><a href="">Cookiebeleid</a></li>
+                    <li class="footer-link"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

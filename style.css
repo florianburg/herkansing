@@ -1,0 +1,388 @@
+/* Semantische tags */
+html {
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #0d1b2a; /* Dark blue background */
+  color: #e0e1dd; /* Light gray text color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.star {
+  fill: gold;
+  width: 20px;
+  height: 20px;
+}
+
+.star:hover ~ .star {
+  fill: gray;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Header */
+.logo {
+  height: 10vh;
+  width: auto;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+header {
+  background-color: #1b263b; /* Dark blue header */
+  color: #e0e1dd;
+  padding: 10px 0;
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropbtn {
+  background-color: #1b263b; /* Add your desired button background color */
+  color: #e0e1dd; /* Add your desired button text color */
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9; /* Add your desired background color */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333; /* Add your desired text color */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd; /* Add your desired hover background color */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 15px;
+}
+
+.nav-menu li:last-child a {
+  background-color: #778da9; /* Gray button background */
+  color: #e0e1dd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #e0e1dd;
+}
+
+/* headline section */
+#headline-section {
+  border-top: #e0e1dd solid 2px;
+  border-bottom: #e0e1dd solid 2px;
+  text-align: center;
+  background: url(https://imgs.search.brave.com/NBUtON6MWTKrKi_9Tn2eBppQrRgYgbfNqcC6nhdI_C4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2I4L1Zhbk1vb2Zf/Vi5qcGc) center/cover no-repeat;
+  background-size: cover;
+  color: #e0e1dd;
+  padding: 30px 0;
+}
+
+#headline-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#headline-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#headline-section #headline-links ul {
+  list-style-type: none;
+}
+
+#headline-section #headline-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#headline-section #headline-links li:last-child {
+  background-color: #415a77; /* Dark gray background for the last link */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#headline-section #headline-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* subheading section */
+#subheading-section {
+  text-align: center;
+  background-color: #1b263b; /* Dark blue background */
+  padding: 50px 0;
+}
+
+#subheading h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #778da9; /* Gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-container {
+  padding: 20px;
+}
+
+.card-container h5 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.stars ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stars li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.stars svg {
+  width: 20px;
+  fill: #ffd700; /* Gold star color */
+}
+
+.card-container p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.card-container button {
+  background-color: #415a77; /* Dark gray button background */
+  color: #e0e1dd;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+/* form section */
+.form-header h4{
+  text-align: center;
+  font-size: 4vh;
+  padding: 0px;
+  margin: 1vh;
+}
+
+.contact-form{
+  height: fit-content + 5vh;
+}
+.styled-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  flex: 48%; /* Adjust the width based on your design */
+  margin-bottom: 15px;
+}
+
+.styled-input,
+.styled-radio-buttons,
+.styled-button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.styled-radio-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-button {
+  flex: 48%; /* Adjust the width based on your design */
+  display: flex;
+  align-items: center;
+}
+
+.styled-button {
+  background-color: #1b263b; /* Add your desired button background color */
+  color: #e0e1dd; /* Add your desired button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+
+
+/* footer */
+footer {
+  background-color: #1b263b; /* Dark blue background */
+  color: #e0e1dd;
+  padding: 30px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  max-width: 150px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+#socials ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+#socials li {
+  margin-right: 20px;
+}
+
+#footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link a{
+  text-decoration: none;
+}
+
+#footer-links li {
+  margin-bottom: 10px;
+}
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .nav-menu {
+      margin-top: 10px;
+  }
+
+  .nav-menu li {
+      margin: 0;
+  }
+
+  .nav-menu li:last-child {
+      margin-top: 10px;
+  }
+
+  #headline-section {
+      padding: 20px 0;
+  }
+
+  #headline-section h2 {
+      font-size: 2em;
+  }
+
+  #headline-section p {
+      font-size: 1em;
+  }
+
+  .card {
+      width: 100%;
+  }
+
+  form {
+      padding: 20px;
+  }
+
+    .input-group {
+        flex: 100%; 
+    }
+
+    .radio-button {
+        flex: 100%; 
+    }
+    .nav-menu {
+      display: flex;
+      justify-content: space-between;
+  }
+
+}
+
